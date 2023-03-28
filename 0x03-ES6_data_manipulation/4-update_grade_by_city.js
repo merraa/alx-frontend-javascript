@@ -3,7 +3,7 @@ export default function updateStudentGradeByCity(students, city, newGrade) {
   const newArr = arr.map((obj) => {
    obj.grade = "N/A";
    return obj;
-  })
+  });
   for(const i of newGrade){
     for(const j of newArr){
       if(j.id === i.studentId){
