@@ -1,4 +1,4 @@
-export default getListStudentIds(arrObj){
+export default function getListStudentIds(arrObj){
   if(typeof(arrObj) !== 'Array')
     return [];
   else 
